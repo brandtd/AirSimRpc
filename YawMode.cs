@@ -19,16 +19,20 @@
 
 #endregion MIT License (c) 2018 Dan Brandt
 
+using MessagePack;
 using Newtonsoft.Json;
 
 namespace AirSimRpc
 {
+    [MessagePackObject]
     public class YawMode
     {
         [JsonProperty]
+        [Key("is_rate")]
         public bool IsRate { get; set; }
 
         [JsonProperty]
+        [Key("yaw_or_rate")]
         public float YawOrRate { get; set; }
     }
 }
