@@ -1,3 +1,3 @@
-# AirSimApp
+# AirSimRpc
 
-Project containing the actual WPF app. The app demos some command & control of a vehicle, intending to help test out the AirSimRpc library and see what the airsim library is capable of through the interfaces that it exposes.
+Library for accessing [Microsoft AirSim](https://github.com/Microsoft/AirSim) RPC methods from C#.
